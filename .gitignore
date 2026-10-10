@@ -1,0 +1,30 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 示例构建产物（demo 渲染输出，不进仓库）----
+examples/out/
+
+# ---- 渲染 / 配音临时产物 ----
+*.mp4
+*.mp3
+*.wav
+*.srt
+*.ass
+*.mov
+
+# ---- 通用工程输出目录 ----
+out/
+proj/
+work/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,12 @@
+# 渲染：手绘图元引擎（超采样抗锯齿）
+Pillow>=10
+
+# 配音：必须 >= 7
+# 本技能靠 edge-tts 的「词级时间戳」做声画同步。7.0 起 boundary 默认变为
+# SentenceBoundary，且只有 7.x 的 stream() 才返回 WordBoundary 事件；
+# voice.py 显式传 boundary="WordBoundary" 并解析该事件流。6.x 拿不到词级
+# 时间戳，字幕与同步全部失效。
+edge-tts>=7
+
+# 合视频：自带 ffmpeg 二进制，无需系统另装 ffmpeg
+imageio-ffmpeg>=0.4

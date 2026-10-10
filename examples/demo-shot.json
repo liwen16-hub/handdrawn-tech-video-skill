@@ -1,0 +1,22 @@
+{
+  "title": "工业网关该不该直连数据库",
+  "theme": "ink",
+  "size": [1080, 1920],
+  "fps": 30,
+  "seed": 11,
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "voice_text": "很多人以为，网关就是个转发器。其实它真正的职责，是隔离和汇聚。",
+  "elements": [
+    {"type": "title", "text": "工业网关", "x": 92, "y": 230, "size": 92,
+     "align": "left", "cue": "网关", "text_width": 372},
+
+    {"type": "box", "text": "转发器", "x": 330, "y": 580, "w": 420, "h": 170,
+     "r": 20, "size": 48, "cue": "转发器"},
+
+    {"type": "arrow", "x": 540, "y": 770, "x2": 540, "y2": 920, "head": 30,
+     "cue": "其实"},
+
+    {"type": "box", "text": "隔离 + 汇聚", "x": 330, "y": 960, "w": 420, "h": 170,
+     "r": 20, "size": 48, "cue": "隔离", "color": [13, 72, 206]}
+  ]
+}
